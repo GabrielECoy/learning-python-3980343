@@ -16,6 +16,7 @@ print (os.name)
 print ("Item exists: ", path.exists("textfile.txt"))
 print ("Item is a file: ", path.isfile("textfile.txt"))
 print ("Item is a directory: ", path.isdir("textfile.txt"))
+print(__file__) ## File being executed, does not existing in the context of a colab notebook
 
 # Work with file paths
 print ("Item's path: ", path.realpath("textfile.txt"))
