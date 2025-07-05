@@ -22,6 +22,7 @@ print(r.randint(100,200))
 
 # Use the 3rd party tabulate module to print tabulated data:
 from tabulate import tabulate
+# python -m pip install tabulate
 
 # Sample data
 data = [
